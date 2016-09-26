@@ -8,26 +8,26 @@
 ## Software packages (installed)
 - Package repositories updated
 - Software packages updated (reboot pending)
-  - apg - for password generation
+- apg - for password generation
 ```
 apg -m15 -M SNC
 ```
-  - ntp - ntp time server 
-  - postgresql
-  - python-psycopg2
-  - python-flask
-  - python-sqlalchemy
-  - python-pip
-  - libapache2-mod-wsgi
-  - bleach (pip install)
-  - oauth2client (pip install)
-  - requests (pip install)
-  - httplib2 (pip install)
-  - redis (pip install)
-  - passlib (pip install)
-  - itsdangerous (pip install)
-  - flask-httpauth (pip install)
-  - git
+- ntp - ntp time server 
+- postgresql
+- python-psycopg2
+- python-flask
+- python-sqlalchemy
+- python-pip
+- libapache2-mod-wsgi
+- bleach (pip install)
+- oauth2client (pip install)
+- requests (pip install)
+- httplib2 (pip install)
+- redis (pip install)
+- passlib (pip install)
+- itsdangerous (pip install)
+- flask-httpauth (pip install)
+- git
 
 ## Server configuration
 
