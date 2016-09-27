@@ -68,9 +68,9 @@ To                         Action      From
 ```
   - WSGI module enabled
 ```
-    WSGIScriptAlias /   /var/www/html/myapp.wsgi
-    WSGIDaemonProcess student user=student group=student processes=2 threads=2 stack-size=524288
-    WSGIProcessGroup student
+WSGIScriptAlias / /home/catalogadmin/www/catalog/productcatalog.wsgi
+WSGIDaemonProcess catalogadmin user=catalogadmin group=catalogadmin
+WSGIProcessGroup catalogadmin 
 ``` 
 - postgresql
   - Users created: 
